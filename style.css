@@ -35,6 +35,7 @@ main{
 }
 h1{
     color: rgb(255, 255, 255);
+    font: 18px;
 }
 
 .footer{
