@@ -30,6 +30,7 @@ main{
 
 .cabecalho-link{
     color: rgb(4, 41, 255);
+    text-emphasis: none;
 
 }
 h1{
