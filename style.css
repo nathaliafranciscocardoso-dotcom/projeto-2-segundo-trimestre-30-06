@@ -47,13 +47,13 @@ font: size 18px;;
 
 .cartao-interno{
     position: relative;
-    border-radius: 12px;/*cantos arredondados*/
-    box-shadow: 6 6px 12px rgba(0,0,0,0); /*colocar uma sombra ao redor do catão*/
-    backface-visibility: hidden;
-
+    transition: tranform 0.8s;
+    transform-style: preserve-3d;
 }
-
-.catao-frente, .cartao-verso{
+.cartao:hover .cartao-interno{
+    transform: rotateY(180deg)
+}
+.cartao-frente, .cartao-verso{
     position: relative;
     border-radius: 12px;/*cantos arredondados*/
     box-shadow: 6 6px 12px rgba(0,0,0,0); /*colocar uma sombra ao redor do catão*/
