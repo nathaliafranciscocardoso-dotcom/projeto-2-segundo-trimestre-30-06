@@ -31,11 +31,11 @@
 }
   
 .cabecalho-link{
-color: antiquewhite;
+color: rgb(0, 0, 0);
 
 }
 .h1{
-color: rgb(252, 252, 252);
+color: rgb(0, 0, 0);
 font: size 18px;;
 }
 
@@ -47,6 +47,8 @@ font: size 18px;;
 
 .cartao-interno{
     position: relative;
-    border-radius: 12px;
-    box-shadow: 6 6px 12px;
+    border-radius: 12px;/*cantos arredondados*/
+    box-shadow: 6 6px 12px rgba(0,0,0,0); /*colocar uma sombra ao redor do catão*/
+    backface-visibility: hidden;
+    
 }
