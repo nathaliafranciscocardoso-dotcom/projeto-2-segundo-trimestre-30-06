@@ -50,5 +50,17 @@ font: size 18px;;
     border-radius: 12px;/*cantos arredondados*/
     box-shadow: 6 6px 12px rgba(0,0,0,0); /*colocar uma sombra ao redor do catão*/
     backface-visibility: hidden;
-    
+
+}
+
+.catao-frente, .cartao-verso{
+    position: relative;
+    border-radius: 12px;/*cantos arredondados*/
+    box-shadow: 6 6px 12px rgba(0,0,0,0); /*colocar uma sombra ao redor do catão*/
+    backface-visibility: hidden;
+
+}
+
+.cartao-verso{
+    transform: rotateY(180deg);/*rotaciona o cartão 180 graus no eixo Y*/
 }
