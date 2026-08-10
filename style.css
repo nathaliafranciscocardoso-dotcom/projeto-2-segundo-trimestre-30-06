@@ -47,4 +47,6 @@ font: size 18px;;
 
 .cartao-interno{
     position: relative;
+    border-radius: 12px;
+    box-shadow: 6 6px 12px;
 }
