@@ -47,6 +47,11 @@
 
 }
 
+.h2 {
+    color: aliceblue;
+    font-size: 32px;
+}
+
 .footer {
     background-color: rgb(153, 0, 0);
     padding: 15px 15px;
