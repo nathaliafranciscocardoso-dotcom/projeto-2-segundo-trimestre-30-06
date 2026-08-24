@@ -50,7 +50,7 @@
 
 .cartao-interno {
     position: relative;
-    transition: tranform 0.8s;
+    transition: tranform 1.0s;
     transform-style: preserve-3d;
 }
 
