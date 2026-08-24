@@ -29,10 +29,14 @@
 
 .main {
     flex: 1;
+    flex-direction: row;
+    justify-content: space-around;
+    /*flex: 1;*/
 }
 
 .cabecalho-link {
     color: rgb(255, 173, 79);
+    text-decoration: none;
 
 }
 
