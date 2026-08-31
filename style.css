@@ -28,7 +28,7 @@
     background-color: rgb(255, 219, 174);
 }
 
-.main {
+main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
